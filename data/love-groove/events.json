@@ -1,0 +1,236 @@
+{
+	"song": {
+		"events": [
+			[
+				666.666666666667,
+				[
+					[
+						"Love Groove",
+						"angleTween",
+						""
+					]
+				]
+			],
+			[
+				1166.66666666667,
+				[
+					[
+						"Love Groove",
+						"angleTween",
+						""
+					]
+				]
+			],
+			[
+				1666.66666666667,
+				[
+					[
+						"Love Groove",
+						"angleTween",
+						""
+					]
+				]
+			],
+			[
+				2000,
+				[
+					[
+						"Love Groove",
+						"angleTween",
+						""
+					]
+				]
+			],
+			[
+				2500,
+				[
+					[
+						"Love Groove",
+						"angleTween",
+						""
+					]
+				]
+			],
+			[
+				3166.66666666667,
+				[
+					[
+						"Love Groove",
+						"angleTween",
+						""
+					]
+				]
+			],
+			[
+				3333.33333333333,
+				[
+					[
+						"Love Groove",
+						"angleTween",
+						""
+					]
+				]
+			],
+			[
+				3833.33333333333,
+				[
+					[
+						"Love Groove",
+						"angleTween",
+						""
+					]
+				]
+			],
+			[
+				4333.33333333333,
+				[
+					[
+						"Love Groove",
+						"angleTween",
+						""
+					]
+				]
+			],
+			[
+				4666.66666666667,
+				[
+					[
+						"Love Groove",
+						"angleTween",
+						""
+					]
+				]
+			],
+			[
+				5166.66666666667,
+				[
+					[
+						"Love Groove",
+						"angleTween",
+						""
+					]
+				]
+			],
+			[
+				5833.33333333333,
+				[
+					[
+						"Love Groove",
+						"angleTween",
+						""
+					]
+				]
+			],
+			[
+				6000,
+				[
+					[
+						"Love Groove",
+						"angleTween",
+						""
+					]
+				]
+			],
+			[
+				6500,
+				[
+					[
+						"Love Groove",
+						"angleTween",
+						""
+					]
+				]
+			],
+			[
+				7000,
+				[
+					[
+						"Love Groove",
+						"angleTween",
+						""
+					]
+				]
+			],
+			[
+				7333.33333333333,
+				[
+					[
+						"Love Groove",
+						"angleTween",
+						""
+					]
+				]
+			],
+			[
+				7833.33333333333,
+				[
+					[
+						"Love Groove",
+						"angleTween",
+						""
+					]
+				]
+			],
+			[
+				8333.33333333333,
+				[
+					[
+						"Love Groove",
+						"angleTween",
+						""
+					]
+				]
+			],
+			[
+				8666.66666666667,
+				[
+					[
+						"Love Groove",
+						"angleTween",
+						""
+					]
+				]
+			],
+			[
+				9166.66666666667,
+				[
+					[
+						"Love Groove",
+						"angleTween",
+						""
+					]
+				]
+			],
+			[
+				9666.66666666667,
+				[
+					[
+						"Love Groove",
+						"angleTween",
+						""
+					]
+				]
+			],
+			[
+				130000,
+				[
+					[
+						"Mult SV",
+						"",
+						"0"
+					]
+				]
+			],
+			[
+				130333.333333333,
+				[
+					[
+						"Mult SV",
+						"",
+						"1"
+					]
+				]
+			]
+		]
+	}
+}

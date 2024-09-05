@@ -1,0 +1,11 @@
+{
+	"idle_anim": "norbert idle",
+	"image": "menu_norbert",
+	"position": [
+		-50,
+		-40
+	],
+	"flipX": false,
+	"scale": 1,
+	"confirm_anim": "norbert start"
+}

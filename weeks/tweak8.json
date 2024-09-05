@@ -1,0 +1,73 @@
+{
+	"storyName": "Tweak 8",
+	"difficulties": "Normal",
+	"hideFreeplay": false,
+	"weekBackground": "tweak8",
+	"weekBefore": "",
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"weekCharacters": [
+		"",
+		"",
+		"norbert"
+	],
+	"songs": [
+		[
+			"Dangerous To Go Alone",
+			"onitakoru",
+			[
+				174,
+				120,
+				238
+			]
+		],
+		[
+			"Frauduccine",
+			"fakepep",
+			[
+				136,
+				168,
+				200
+			]
+		],
+		[
+			"Circus (Weekly Mix)",
+			"siiva",
+			[
+				70,
+				70,
+				70
+			]
+		],
+		[
+			"Rock Bottom",
+			"badeline",
+			[
+				122,
+				71,
+				114
+			]
+		],
+		[
+			"Silence Is Death",
+			"doppelbloxxers",
+			[
+				175,
+				6,
+				46
+			]
+		],
+		[
+			"SIMUL4CRUM",
+			"four",
+			[
+				107,
+				105,
+				133
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"weeklogo": "MirrorMatch",
+	"weekName": "Tweak 8"
+}
