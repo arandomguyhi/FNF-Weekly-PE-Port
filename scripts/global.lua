@@ -1,4 +1,15 @@
 luaDebugMode = true
+function onCreatePost()
+    runHaxeCode([[
+	createGlobalCallback('snapCamFollowToPos', function(xpos:Float, ypos:Float, isForced:Bool) {
+	    game.camGame.scroll.x = xpos - (FlxG.width / 2);
+	    game.camGame.scroll.y = ypos - (FlxG.height / 2);
+	    game.camFollow.setPosition(xpos, ypos);
+	    game.isCameraOnForcedPos = isForced ? true : false;
+	});
+    ]])
+end
+
 function onEvent(name, value1, value2)
     if name == 'Camera Zoom' then
 	local val1 = tonumber(value1)
