@@ -45,7 +45,6 @@ function onCreatePost()
     addLuaSprite('achievement', true);
 end
 
-local noAnimationSection = false;
 function onUpdate(elapsed)
     setProperty('stage.x', getProperty('stage.x') - elapsed * 100);
     setProperty('stage2.x', getProperty('stage2.x') - elapsed * 100);
