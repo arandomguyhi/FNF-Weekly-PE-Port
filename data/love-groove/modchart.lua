@@ -20,6 +20,9 @@ function onCreate()
 
 	makeLuaSprite('threedeez')
 	setSpriteShader('threedeez', '3D')
+	for _, floats in pairs({'xrot', 'yrot', 'zrot', 'xpos', 'ypos', 'zpos'}) do
+		setShaderFloat('threedeez', floats, 0)
+	end
 
 	makeLuaSprite('para')
 	setSpriteShader('para', 'paranoia')

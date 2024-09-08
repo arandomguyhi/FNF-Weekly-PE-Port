@@ -1,12 +1,12 @@
 #pragma header
 #define PI 3.1415926538
 
-uniform float xrot = 0.0;
-uniform float yrot = 0.0;
-uniform float zrot = 0.0;
-uniform float xpos = 0.0;
-uniform float ypos = 0.0;
-uniform float zpos = 0.0;
+uniform float xrot;
+uniform float yrot;
+uniform float zrot;
+uniform float xpos;
+uniform float ypos;
+uniform float zpos;
 
 	float alph = 0;
 float plane( in vec3 norm, in vec3 po, in vec3 ro, in vec3 rd ) {
@@ -21,15 +21,17 @@ vec2 raytraceTexturedQuad(in vec3 rayOrigin, in vec3 rayDirection, in vec3 quadC
     float c = sin(quadRotation.y); float d = cos(quadRotation.y); 
     float e = sin(quadRotation.z); float f = cos(quadRotation.z); 
     float ac = a*c;   float bc = b*c;
-	
-	mat3 RotationMatrix  = 
-			mat3(	  d*f,      d*e,  -c,
-                 ac*f-b*e, ac*e+b*f, a*d,
-                 bc*f+a*e, bc*e-a*f, b*d );
+    
+    vec3 RotationMatrix1 = vec3(d*f, d*e, -c);
+    vec3 RotationMatrix2 = vec3(ac*f-b*e, ac*e+b*f, a*d);
+    vec3 RotationMatrix3 = vec3(bc*f+a*e, bc*e-a*f, b*d);
     //--------------------------------------
     
-    vec3 right = RotationMatrix * vec3(quadDimensions.x, 0.0, 0.0);
-    vec3 up = RotationMatrix * vec3(0, quadDimensions.y, 0);
+    vec3 quadDimX = vec3(quadDimensions.x, 0.0, 0.0);
+    vec3 quadDimY = vec3(0, quadDimensions.y, 0);
+    vec3 right = vec3(dot(RotationMatrix1, quadDimX), dot(RotationMatrix2, quadDimX), dot(RotationMatrix3, quadDimX));
+    vec3 up = vec3(dot(RotationMatrix1, quadDimY), dot(RotationMatrix2, quadDimY), dot(RotationMatrix3, quadDimY));
+
     vec3 normal = cross(right, up);
     normal /= length(normal);
     
