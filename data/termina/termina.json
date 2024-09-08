@@ -5051,7 +5051,7 @@
 		"stage": "termina",
 		"needsVoices": true,
 		"validScore": true,
-		"arrowSkin": "majora",
+		"arrowSkin": "stages/w2/skullkid/majora_NOTE_assets",
 		"bpm": 155,
 		"speed": 2.4
 	}
