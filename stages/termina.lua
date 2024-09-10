@@ -16,6 +16,15 @@ function onCreatePost()
 	setPropertyFromGroup('opponentStrums', i-4, 'y', _G['defaultPlayerStrumY'..i%4]+35)
 	setPropertyFromGroup('playerStrums', i-4, 'y', _G['defaultOpponentStrumY'..i%4]+35)
     end
+
+    runHaxeCode([[
+	for (note in game.unspawnNotes) {
+	    if (note.isSustainNote) {
+		note.offsetX += 2;
+		if (ClientPrefs.data.downScroll) note.offsetY -= 40;
+	    }
+	}
+    ]])
 end
 
 function onSpawnNote()

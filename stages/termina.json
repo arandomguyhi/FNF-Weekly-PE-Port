@@ -1,7 +1,7 @@
 {
 	"directory": "",
 	"defaultZoom": 0.81,
-	"isPixelStage": false,
+	"stageUI": "stages/w2/skullkid/sk",
 
 	"boyfriend": [-15, 0],
 	"girlfriend": [580, 325],
